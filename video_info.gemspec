@@ -5,7 +5,7 @@ require 'video_info/version'
 
 Gem::Specification.new do |s|
   s.name         = 'video_info'
-  s.version      = VideoInfo::VERSION
+  s.version      = VideoInfo::VERSION.dup
   s.license      = 'MIT'
 
   s.author       = 'Thibaud Guillaume-Gentil'
